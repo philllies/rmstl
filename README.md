@@ -24,8 +24,9 @@ npm run build
 
 ## Project Structure
 ```
-*root*
-├── */content/*.   contains all static content (index.html, images, videos, etc.)
-├── */src/*.       contains all sources files
-└── */test/*.      contains all tests
+root
+├── build    contains all build files (all static content is copied over from content when running 'npm run build')
+├── content   contains all static content (index.html, images, videos, etc.)
+├── src       contains all sources files
+└── test      contains all tests
 ```
