@@ -22,7 +22,7 @@ npm run test
 npm run build
 ```
 
-*Project Structure*
+## Project Structure
 ```
 root
 ├── build     contains all build files (all static content is copied over from content when running 'npm run build')
