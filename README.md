@@ -7,22 +7,22 @@
 npm install
 ```
 ## Commands
-### Running a local dev server
+*Running a local dev server*
 ```
 npm start
 ```
 
-### Running all tests
+*Running all tests*
 ```
 npm run test
 ```
 
-### Building the project
+*Building the project*
 ```
 npm run build
 ```
 
-## Project Structure
+*Project Structure*
 ```
 root
 ├── build     contains all build files (all static content is copied over from content when running 'npm run build')
