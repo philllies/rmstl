@@ -1,6 +1,6 @@
 # rmstl
 
-*rmstl* is a boilerplate for TypeScript-based React projects using, MobX, MobX-State-Tree, lodash. It includes mocha/chai for unit testing, and uses Webpack for bundling and running a dev server.
+*rmstl* is a boilerplate for TypeScript-based React projects using, MobX, MobX-State-Tree, lodash. It includes mocha/chai for unit testing, and uses Webpack to run a local dev server and create production builds.
 
 ## Installation
 ```
