@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "incremental": true,
+        "baseUrl": "./",
+        "rootDirs": [
+            "./src",
+        ],
+        "paths": {
+            "@app/*": [
+                "./src/*"
+            ]
+        },
+        "jsx": "react",
+        "checkJs": false,
+        "allowJs": true,
+        "allowUnreachableCode": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "downlevelIteration": true,
+        "experimentalDecorators": true,
+        "declaration": false,
+        "noImplicitAny": false,
+        "noImplicitReturns": false,
+        "noUnusedLocals": false,
+        "skipLibCheck": true,
+        "removeComments": true,
+        "strictNullChecks": false,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "typeRoots": [
+            "node_modules/@types"
+        ]
+    },
+    "include": [
+        "./src/**/*"
+    ]
+}
